@@ -1,6 +1,6 @@
 // Función que carga el archivo JSON y muestra solo las posiciones impares
 const cargarYMostrarImpares = () => {
-    fetch('https://raw.githubusercontent.com/diegoirreno/sistemas_distribuidos/main/data.json') // Cargar el archivo JSON
+    fetch('http://diegoirreno.github.io.nuevo/') // Cargar el archivo JSON
         .then(response => response.json()) // Convertir la respuesta en un objeto JSON
         .then(data => {
             const listaImpares = document.getElementById("json-impares"); // Seleccionar la lista de impares

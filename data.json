@@ -1,12 +1,52 @@
 [
-    { "nombre": "Juan Pérez", "cedula": "123456789", "fechaNacimiento": "12/05/2005", "estatura": 1.75 },
-    { "nombre": "María Gómez", "cedula": "987654321", "fechaNacimiento": "30/08/2006", "estatura": 1.65 },
-    { "nombre": "Carlos Ramírez", "cedula": "456789123", "fechaNacimiento": "25/11/2003", "estatura": 1.80 },
-    { "nombre": "Ana Torres", "cedula": "789123456", "fechaNacimiento": "25/02/2003", "estatura": 1.70 },
-    { "nombre": "Luis Mendoza", "cedula": "321654987", "fechaNacimiento": "20/10/2004", "estatura": 1.78 },
-    { "nombre": "Laura Castro", "cedula": "654987321", "fechaNacimiento": "31/01/2000", "estatura": 1.62 },
-    { "nombre": "David Morales", "cedula": "159753852", "fechaNacimiento": "15/07/1999", "estatura": 1.85 },
-    { "nombre": "Sofía Rojas", "cedula": "258741369", "fechaNacimiento": "15/04/2001", "estatura": 1.68 },
-    { "nombre": "Pedro Villalobos", "cedula": "753951456", "fechaNacimiento": "23/09/2002", "estatura": 1.72 },
-    { "nombre": "Isabel Díaz", "cedula": "456123789", "fechaNacimiento": "14/06/2006", "estatura": 1.60 }
+    { "nombre": "Juan Pérez",
+     "cedula": "123456789",
+      "fechaNacimiento": "12/05/2005",
+       "estatura": 1.75 },
+
+    { "nombre": "María Gómez",
+     "cedula": "987654321",
+      "fechaNacimiento": "30/08/2006",
+       "estatura": 1.65 },
+
+    { "nombre": "Carlos Ramírez",
+     "cedula": "456789123",
+      "fechaNacimiento": "25/11/2003",
+       "estatura": 1.88 },
+
+    { "nombre": "Ana Torres",
+     "cedula": "789123456",
+      "fechaNacimiento": "25/02/2003",
+       "estatura": 1.75 },
+
+    { "nombre": "Luis Mendoza",
+     "cedula": "321654987",
+      "fechaNacimiento": "20/10/2004",
+       "estatura": 1.78 },
+
+    { "nombre": "Laura Castro",
+     "cedula": "654987321",
+      "fechaNacimiento": "31/01/2000",
+       "estatura": 1.62 },
+
+    { "nombre": "David Morales",
+     "cedula": "159753852",
+      "fechaNacimiento": "15/07/1999",
+       "estatura": 1.85 },
+
+    { "nombre": "Sofía Rojas",
+     "cedula": "258741369",
+      "fechaNacimiento": "15/04/2001",
+       "estatura": 1.68 },
+
+    { "nombre": "Pedro Villalobos",
+     "cedula": "753951456",
+      "fechaNacimiento": "23/09/2002",
+       "estatura": 1.72 },
+
+    { "nombre": "Isabel Díaz",
+     "cedula": "456123789",
+      "fechaNacimiento": "14/06/2006",
+       "estatura": 1.62 }
+       
 ]

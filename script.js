@@ -25,6 +25,8 @@ const descargarYGuardarJson = () => {
 };
 // Función que carga el archivo JSON y muestra solo las posiciones impares
 const cargarYMostrarImpares = () => {
+     // Descarga el archivo JSON y lo guarda en la máquina local
+    descargarYGuardarJson();
     fetch('https://raw.githubusercontent.com/diegoirreno/sistemas_distribuidos/main/data.json') // Cargar el archivo JSON
         .then(response => response.json()) // Convertir la respuesta en un objeto JSON
         .then(data => {

@@ -1,3 +1,28 @@
+// Función para descargar el archivo JSON desde GitHub y guardarlo localmente
+const descargarYGuardarJson = () => {
+    // URL del archivo JSON en GitHub
+    const url = 'https://raw.githubusercontent.com/diegoirreno/sistemas_distribuidos/main/data.json';
+
+    // Realizar una solicitud fetch para obtener el archivo JSON
+    fetch(url)
+        .then(response => response.json()) // Convertir la respuesta en un objeto JSON
+        .then(data => {
+            // Convertir el objeto JSON en una cadena de texto
+            const dataStr = JSON.stringify(data, null, 2);
+            const blob = new Blob([dataStr], { type: 'application/json' });
+
+            // Crear un enlace para descargar el archivo
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = 'personas.json';
+
+            // Adjuntar el enlace al documento, simular un clic y luego remover el enlace
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        })
+        .catch(error => console.error('Error al descargar el archivo JSON:', error)); // Manejar errores
+};
 // Función que carga el archivo JSON y muestra solo las posiciones impares
 const cargarYMostrarImpares = () => {
     fetch('https://raw.githubusercontent.com/diegoirreno/sistemas_distribuidos/main/data.json') // Cargar el archivo JSON
